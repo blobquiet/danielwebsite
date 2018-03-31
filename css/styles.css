@@ -1,0 +1,196 @@
+
+/*Recursos-Fuentes*/
+@font-face{
+    font-family: 'navbarfont';
+    src: url('../Fonts/Alcubierre.otf')
+    }
+
+    @font-face{
+        font-family: 'lato-black';
+        src: url('../Fonts/Lato-Black.ttf')
+        }
+
+/*Modificacion del modals-size */
+    @media (min-width: 20rem){
+        .modal-dialog {
+            max-width: 65rem;
+            margin: 1.75rem auto;
+        }
+    }
+.top-navbar{
+    padding: 0.3rem;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    font-family: navbarfont;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*Linea de ubicación*/
+.line{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.pag-banner-bg{
+    background-image: url('../Resources/IMG_6556.JPG');
+    border-radius: 0 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 35rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.head-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pag-fondo-bg{
+    background-image: url('../Resources/fondo-pag-bg');
+    border-radius: 0 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 41.1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.pag-fondo-text{
+    padding-top: 12rem;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.btn-vermas{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 2px solid white;
+    color: white
+}
+
+.box {
+    padding: 3rem;
+  }
+.box-2{
+    padding: 4rem;
+    padding-bottom: 0px;
+}
+
+/*Informacion de la pagina aboutme.html*/
+.info-box{
+background-color: white;
+position: relative;
+bottom: 8rem;
+margin-right: 0;
+margin-left: 0;
+padding-bottom: 1rem;
+font-family: 'Franklin Gothic Medium';
+}
+
+.img-photography-head{
+    background-image: url('../Resources/photography-head.jpg');
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top:5.5rem;
+    background-size: cover;
+}
+
+.img-concierto-head{
+    background-image: url('../Resources/concierto/efea6054453429.595c18d9e0ffb.jpg');
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top:5.5rem;
+    background-size: cover;
+}
+
+.img-forestal-head{
+    background-image: url('../Resources/forestal/IMG_6462.jpg');
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top:5.5rem;
+    background-size: cover;
+}
+
+.img-urbano-head{
+    background-image: url('../Resources/urbano/IMG_6504-3++++.jpg');
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top:5.5rem;
+    background-size: cover;
+}
+
+.img-modelaje-head{
+    background-image: url('../Resources/modelaje/3bea9655758045.5992297323ed5.jpg');
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top:5.5rem;
+    background-size: cover;
+}
+
+.img-category{
+    background-image: url('../Resources/IMG_6462.JPG');
+    max-width:100%;
+}
+
+.pag-banner-sobremi-bg{
+    background-image: url('../Resources/acercademi.jpg');
+    color: white;
+    font-family: lato-black;
+    font-size: 3.2rem;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:5.5rem;
+    min-height: 37rem;
+}
+
+.contacto-bg{
+background-image: url('../Resources/contacto.jpg');
+color: white;
+font-family: lato-black;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top:5.5rem;
+display: flex;
+align-content: center;
+justify-content: center;
+height: 30rem;
+}
+
+.contact-footer{
+    display: flex;
+    background: #19222B;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.hover-text{
+    color: white;
+    font-family:'Franklin Gothic Medium';
+}
+
+/*Ajusta el tamaño de los logos de las redes sociales*/
+.img-size img{
+    width: 2.5rem;
+}

@@ -1,0 +1,17 @@
+﻿git init inicia el proyeto
+git add a�ade elementos al repositorio local
+git commit -m "bla bla" prepara la informacion del repo local
+git push -u sube al repositorio
+git pull actualiza el repositorio local
+
+git checkout -b estilos
+git pull origin nombrebranch
+
+
+<div class="uao-img-profile">
+    <img style="width:8rem;height:8rem;" src="https://instagram.fclo3-1.fna.fbcdn.net/vp/81d0b77674ab1cad3af1f90f3dd9601e/5B2E1A33/t51.2885-15/e15/10661286_799328733423961_1392068097_n.jpg">
+</div>
+<div class="uao-profile-info">
+    <h2 class="uao-name">David Gaviria</h2>
+    <h4 class="uao-email">david.duenas@uao.edu.co</h4>
+</div>
